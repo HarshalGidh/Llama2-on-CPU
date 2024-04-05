@@ -9,7 +9,9 @@ B_SYS,E_SYS = "<<SYS>>\n","\n<</SYS>>\n\n"
 
 instruction = "Convert the following text from English to Hindi: \n\n {text}"
 
-SYST_PROMPT = B_SYS + DEFAULT_SYSTEM_PROMPT + E_SYS
+# Taking Custom_System_Prompt instead of Default System_Prompt :
+
+SYST_PROMPT = B_SYS + CUSTOM_SYSTEM_PROMPT + E_SYS
 template = B_INST + SYST_PROMPT + instruction + E_INST
 
 prompt = PromptTemplate(template= template,input_variables=["text"] )
