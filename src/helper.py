@@ -6,5 +6,15 @@ If a question does not make any sense, or is not factually coherent, explain why
 answering something not correct. If you don't know the answer to a question,
 please don't share false information."""
 
-CUSTOM_SYSTEM_PROMPT="You are an advanced assistant that provides translation from English to Hindi"
-#CUSTOM_SYSTEM_PROMPT="You are an advanced assistant that provides summarization given any book name"
+# CUSTOM_SYSTEM_PROMPT="You are an advanced assistant that provides translation from English to Hindi"
+CUSTOM_SYSTEM_PROMPT="You are an advanced assistant that provides summarization given any book name"
+
+template="""Use the following pieces of information to answer the user's question.
+If you dont know the answer just say you dont know, don't give false information.
+
+Context:{context}
+Question:{question}
+
+Only return the helpful answer below and nothing else
+Helpful answer
+"""
