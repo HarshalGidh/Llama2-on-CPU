@@ -3,9 +3,11 @@
 ## User Interface :
 ![Screenshot 2024-04-05 140320](https://github.com/HarshalGidh/Llama2-on-CPU/assets/126465410/4ad0e91e-3d7b-4a18-af7c-e6ba150b13fa)
 
+# Architecture of the Model :
+![Slide1](https://github.com/HarshalGidh/Llama2-on-CPU/assets/126465410/6117cd6f-e205-403c-8cd1-12f1fb2630b3)
+
 
 # How to run?
-
 ### Steps 1:
 
 clone the repository
