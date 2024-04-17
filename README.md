@@ -1,5 +1,15 @@
 # Llama2-on-CPU
 
+## Techstack Used:
+
+- Python
+- LangChain
+- Flask
+- LLama2
+- CTransformers
+- FAISS Vector DB
+- HTML
+
 ## User Interface :
 ![Screenshot 2024-04-05 140320](https://github.com/HarshalGidh/Llama2-on-CPU/assets/126465410/4ad0e91e-3d7b-4a18-af7c-e6ba150b13fa)
 
